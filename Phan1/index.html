@@ -7,14 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        form {
+            border-style: solid;
+            border-width: 10px 30px 30px 30px;
+            border-color: paleturquoise;
+            border-collapse: collapse;
+            
+        }
         .hobby {
             color: orange;
         }
     </style>
 </head>
 
-<body>
-    <h1 style="background-color:red; color: white; text-align: center;">SỞ THÍCH CỦA BẠN</h1>
+<body>      
     <!-- <p style="color: blue;">Họ và tên
             <input type="text" name="yourname">
         </p>
@@ -22,6 +28,7 @@
             <input type="text" name="email">    
         </p> -->
     <form>
+        <h2 style="background-color:red; color: white; text-align: center;">SỞ THÍCH CỦA BẠN</h2>
             <label style="margin-left: 50px; color: blue;">Họ và tên</label>
             <input type="text" name="yourname" style="margin-bottom: 10px; margin-left: 10px;"><br>
             <label style="margin-left: 74px; color: blue;">Email</label>
@@ -48,7 +55,7 @@
                 <label style="margin-left: 118px;"><input type="checkbox" name="hobby" value="Du lịch">Du lịch</label><br /> <br>
                 <label style="margin-left: 120px;"><input type="submit" name="hobby" value="Gửi thông tin"></label>
                 <label><input type="reset" name="hobby" value="Nhập lại"></label>
-
+                
     </form>
 </body>
 
